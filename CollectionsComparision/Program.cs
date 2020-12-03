@@ -75,7 +75,8 @@ namespace CollectionsComparision
         public string city { get; set; }
         public int marks { get; set; }
 
-        public int CompareTo(Student other)
+        public int CompareTo(Student other)      // this is of no use now since this class now does not implements 
+                                                 // Icompatable interface anymore 
         {
            if(this.id<other.id)
             {
