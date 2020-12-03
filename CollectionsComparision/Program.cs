@@ -6,6 +6,16 @@ using System.Threading.Tasks;
 
 namespace CollectionsComparision
 {
+    // sorting using Icomparable  --> similar to Comparable in java
+
+    // sorting using IComparer  --> similar to comparator in java
+
+    // sorting using a delegate ( Comparision)
+
+    // sorting using lambda 
+
+
+
 
     
 
@@ -42,7 +52,7 @@ namespace CollectionsComparision
 
             SortName sn = new SortName();
 
-          //  Comparison<Student> c = new Comparison<Student>(mysort);
+          //  Comparison<Student> c = new Comparison<Student>(mysort);       // creating an instance to Comparision delegate
 
             l.Sort((a,b) =>  b.marks - a.marks);
 
